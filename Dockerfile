@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.8
 
 RUN addgroup alpine && adduser -G alpine -s /bin/sh -D alpine && \
     apk add --update bash ruby ruby-rdoc ruby-irb ruby-bundler ruby-dev && \
